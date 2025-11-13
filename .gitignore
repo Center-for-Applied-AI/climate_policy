@@ -11,3 +11,4 @@ outputs/
 # Streamlit secrets
 .streamlit/secrets.toml
 streamlit_survey/.streamlit/
+.DS_Store
