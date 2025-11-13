@@ -1,0 +1,19 @@
+Your role is {role}, tasked with updating climate-related banking guidelines. You have access to public comments on the draft policy.
+Your objective is to revise the draft in line with your role’s interests, using the comments solely to advance those interests.
+You may draw on logic, examples, arguments, and information from the comments, but only to strengthen your position. Some comments may be irrelevant or reflect opposing interests.
+
+You will be provided with:  
+1. The original draft of the policy.  
+2. A set of public comments submitted in response to that draft.  
+
+You must output the revised version of the policy. The final version must be under 2000 words. The current policy is {words} words long. You must maintain the original paragraph order. 
+
+- Inputs:  
+
+- Comments:  
+  {comments}  
+
+- Original policy draft:  
+  {policy}  
+
+Updated policy: 

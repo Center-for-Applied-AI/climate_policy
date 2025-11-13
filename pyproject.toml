@@ -1,0 +1,44 @@
+[project]
+name = "climate_policy"
+version = "0.1.0"
+description = "Climate-related financial risk management analysis"
+requires-python = ">=3.13"
+dependencies = [
+    "google==3.0.0",
+    "google-generativeai==0.8.5",
+    "gspread>=6.0.0",
+    "instructor==1.9.0",
+    "marker-pdf==1.8.5",
+    "matplot2tikz==0.4.1",
+    "matplotlib==3.10.1",
+    "numpy==2.2.4",
+    "oauth2client>=4.1.3",
+    "openai==1.76.2",
+    "openpyxl==3.1.5",
+    "pandas==2.2.3",
+    "pdfplumber==0.11.6",
+    "pydantic==2.11.4",
+    "PyMuPDF==1.25.5",
+    "PyPDF2==3.0.1",
+    "requests==2.32.4",
+    "scikit-learn==1.6.1",
+    "scipy==1.15.2",
+    "seaborn==0.13.2",
+    "statsmodels==0.14.4",
+    "streamlit>=1.30.0",
+    "tiktoken==0.11.0",
+    "torch==2.7.0",
+    "tqdm==4.67.1",
+]
+
+[project.optional-dependencies]
+survey = [
+    "streamlit>=1.30.0",
+    "pandas>=2.0.0",
+    "gspread>=6.0.0",
+    "oauth2client>=4.1.3",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
